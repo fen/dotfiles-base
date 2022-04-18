@@ -1,6 +1,6 @@
 # Dotfiles management
 
-This is [my](https://github.com/dcreager/) take on the "share your
+This is [my](https://github.com/fen/) take on the "share your
 dotfiles" craze.  Maybe it will be useful for you, too.
 
 My first principles are:
@@ -41,7 +41,7 @@ dependencies on Ruby, Python, Make, or anything like that.)
 To install the `dotfiles` script for the first time, do the following:
 
     $ cd ~
-    $ git clone git://github.com/dcreager/dotfiles-base.git .dotfiles.base
+    $ git clone git://github.com/fen/dotfiles-base.git .dotfiles.base
     $ .dotfiles.base/bin/dotfiles.symlink install
 
 That should create a `$HOME/bin/dotfiles` symlink for you.  From that
@@ -114,7 +114,7 @@ itself.  It might eventually might contain other scripts for handling
 these kinds of dotfile symlinks, but it doesn't contain any of my actual
 dotfiles.  If you're using zsh and git, you might want to check out my
 [actual collection of
-dotfiles](https://github.com/dcreager/dotfiles-public/), too.  And if
+dotfiles](https://github.com/fen/dotfiles-public/), too.  And if
 you're not, or if you don't like the choices I've made in configuring my
 system, you can create your own `~/.dotfiles.public` repository and
 still use the `dotfiles` script to manage it.
